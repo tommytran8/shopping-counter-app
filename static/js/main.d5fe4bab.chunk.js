@@ -1,0 +1,2 @@
+(this["webpackJsonpshopping-counter-app"]=this["webpackJsonpshopping-counter-app"]||[]).push([[0],{7:function(n,t,e){},8:function(n,t,e){"use strict";e.r(t);e(0);var o=e(2),p=e.n(o),c=(e(7),function(n){n&&n instanceof Function&&e.e(3).then(e.bind(null,9)).then((function(t){var e=t.getCLS,o=t.getFID,p=t.getFCP,c=t.getLCP,i=t.getTTFB;e(n),o(n),p(n),c(n),i(n)}))});p.a.render(document.getElementById("root")),c()}},[[8,1,2]]]);
+//# sourceMappingURL=main.d5fe4bab.chunk.js.map

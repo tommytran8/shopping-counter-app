@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  
+}
+body > h1{
+  font-family: 'Lato', sans-serif;
+  position: absolute;
+  background-color: #faebd7;
+  color: rgb(0, 0, 0);
+  margin: 15px;
+}
+.site{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.nav{
+  height: 10%;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center; 
+  background-color: antiquewhite;
+  margin-bottom: 10px;
+}
+
+.nav h2{
+  height: 25px;
+  width: 50px;
+  margin-right :15px;
+}
+.num{
+  border-radius: 25px;
+  color:aliceblue;
+  background-color: rgb(78, 216, 170);
+  display:flex;
+  align-items: center;
+  justify-content: center; 
+  font-size: 15px;
+  transform: translateX(-50%);
+}
+.text{
+  transform: translateX(30%);
+}
+
+.item{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.item > *{
+  margin-bottom: 5px;
+}
+.itemname, .itemquantity{
+  width: 60px;
+  height: 40px;
+  background-color: rgb(255, 217, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  margin-right: 5px;
+  min-width: 38px;
+}
+.itemname{
+  background-color: white;
+  transform: translateX(-30%);
+  
+}
+.item .buttons{
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  border: none;
+  margin: 0 5px;
+  border-radius: 7px;
+  font-size: larger; 
+  cursor: pointer;
+}
+button:focus{
+  outline: 0;
+}
+
+.refresh, .trash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .35s ease-in-out;
+  
+}
+.refresh{
+  background-color: rgb(94, 39, 197);
+  filter: invert(100%);
+  transform: translateX(80%);
+}
+.refresh:hover{
+  background-color: rgb(177, 96, 252);
+}
+.trash{
+  background-color: rgb(67, 246, 255);
+  filter: invert(100%);
+}
+.trash:hover{
+  background-color: rgb(27, 160, 167);
+}
+.add, .sub{
+  filter: invert(100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s ease;
+}
+
+.add:hover, .sub:hover{
+  filter: invert(0);
+}
+.cart{
+
+  transform: translateX(-190%);
+
+}
+
+.site > form{
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 1050px){
+  body > h1{
+    visibility: hidden;
+  }
+  .cart{
+
+    transform: translateX(-145%);
+  
+  }
+}

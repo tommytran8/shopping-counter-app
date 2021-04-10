@@ -1,5 +1,5 @@
 # shopping-counter-app
 
-Familiarizing myself with ReactJs
+Learning ReactJS
 
 https://tommytran8.github.io/shopping-counter-app/
